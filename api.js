@@ -69,6 +69,7 @@ module.exports = connectRoute(function(router) {
     const chapter = req.params.chapter;
     const id = req.params.id;
     const basePath = buildFilePath(chapter, id);
+    fs.writeFileSync('rjx.log',`url: ${req.url} chapter: ${chapter} id: ${id}`);
 
     const jsPath = basePath('.js');
     const cssPath = basePath('.css');

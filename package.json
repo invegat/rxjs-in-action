@@ -49,6 +49,7 @@
     "codemirror": "5.20.2",
     "connect": "3.5.0",
     "connect-route": "0.1.5",
+    "fs": "^0.0.1-security",
     "http-proxy-middleware": "0.17.3",
     "rxjs": "5.0.3",
     "serve-static": "1.11.1",
